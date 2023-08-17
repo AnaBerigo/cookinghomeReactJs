@@ -29,12 +29,12 @@ export const Label = styled.label`
     color: #676767;
 `;
 
-export const LabelSingup = styled.label`
+export const LabelSignup = styled.label`
     font-size: 16px;
     color: #676767;
 `;
 
-export const labelError = styled.label`
+export const LabelError = styled.label`
     font-size: 14px;
     color:red;
 `;
