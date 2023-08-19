@@ -31,7 +31,11 @@ const Signin = () => {
 
   return (
     <C.Container>
-      <C.Label>SISTEMA DE LOGIN</C.Label>
+      {/* <C.Label>SISTEMA DE LOGIN</C.Label> */}
+        <C.ContentRow>
+        <C.Content>
+          <C.Image/>
+        </C.Content>
         <C.Content>
           <Input
             type='email'
@@ -54,6 +58,8 @@ const Signin = () => {
             </C.Strong>
           </C.LabelSignup>
         </C.Content>
+        
+        </C.ContentRow>
     </C.Container>
   );
 }
